@@ -1,3 +1,12 @@
+#dzielnie i  łączenie stringów
+string = 'FuckPutin'
+midle_string = len(string)//2
+string2 = ' Vladymir'
+string3 = string[:midle_string] + string2
+print(string3)
+
+
+
 
 name = input('Podaj imię: ')
 wiek = int(input('ile masz lat? '))
@@ -46,3 +55,4 @@ while i<5:
   words = ["hello", "world", "spam", "eggs"]
   for word in words:
       print(word + "!")
+
