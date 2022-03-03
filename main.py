@@ -44,15 +44,15 @@ print('Out of loop')
 
 # Continue
 i = 0
-while i<5:
-  i += 1
-  if i==3:
-    print("Skipping 3")
-    continue
-  print(i)
+while i < 5:
+    i += 1
+    if i==3:
+        print("Skipping 3")
+        continue
+print(i)
 
-  # listowanie listy
-  words = ["hello", "world", "spam", "eggs"]
-  for word in words:
-      print(word + "!")
+# listowanie listy
+words = ["Jacek", "Maciek", "Radek", "Zibi"]
+for word in words:
+    print(word + "!")
 
